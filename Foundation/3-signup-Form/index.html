@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Odin Project Signup page" />
+    <link
+      href="https://db.onlinewebfonts.com/c/7d460b18433753a097e5bc2bad7c8dd9?family=Norse+Bold"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./reset.css" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>Signup</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="img-section">
+        <div class="logo-section">
+          <img src="./assests/odin-lined.png" alt="logo" />
+          <label class="logo-text">ODIN</label>
+        </div>
+      </div>
+      <div class="content-section">
+        <div class="content-one">
+          <p>
+            This is for a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            <i>now</i> to get started.
+          </p>
+          <p>You <i>know</i> you want to succeed.</p>
+        </div>
+        <div class="content-two">
+          <p>Let's do this!</p>
+          <form method="post" action="#">
+            <div class="row-one">
+              <div class="inc">
+                <label for="firstname">FIRST NAME</label>
+                <input type="text" name="firstname"  />
+              </div>
+              <div class="inc">
+                <label for="lastnmae">LAST NAME</label>
+                <input type="text" name="lastname" />
+              </div>
+            </div>
+            <div class="row-two">
+              <div class="inc">
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" />
+              </div>
+              <div class="inc">
+                <label for="phonenumber">PHONE NUMBER</label>
+                <input type="tel" name="phonenumber" />
+              </div>
+            </div>
+            <div class="row-three">
+              <div class="inc">
+                <label for="password">PASSWORD</label>
+                <input type="password" id="pw1" name="password" />
+                <label id="password-alert"></label>
+              </div>
+              <div class="inc">
+                <label for="passwordcheck">CONFIRM PASSWORD</label>
+                <input type="password" id="pw2" name="passwordcheck" />
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="content-three">
+          <button>Create Account</button>
+          <p class="signup">Already have an account? <a href="#">Log in</a></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
